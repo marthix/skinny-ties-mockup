@@ -32,7 +32,7 @@ a {
   transition: all 0.2s ease-out;
 
   &:hover {
-    color: $blue;
+    color: $darkblue;
   }
 }
 
@@ -353,6 +353,10 @@ main {
   a {
     color: $blue;
     font-size: 13px;
+
+    &:hover {
+      color: $darkblue;
+    }
   }
 
   p {
@@ -387,11 +391,10 @@ main {
   font-size: 12px;
   margin-left: -4px;
   padding: 8px;
+  transition: all 0.2s ease-out;
 
   &:hover {
-    background-color: $white;
-    color: $blue;
-    border: 1px solid $blue;
+    background-color: $darkblue;
     cursor: pointer;
   }
 }
@@ -475,8 +478,7 @@ footer {
     transition: all 0.2s ease-out;
 
     &:hover {
-      background-color: $white;
-      color: $blue;
+      background-color: $darkblue;
       cursor: pointer;
     }
   }

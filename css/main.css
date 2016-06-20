@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #33a1ff;
+  color: #1782e0;
 }
 
 ul {
@@ -338,6 +338,10 @@ main a {
   font-size: 13px;
 }
 
+.sub-main-tile a:hover {
+  color: #1782e0;
+}
+
 .sub-main-tile p {
   font-size: 13px;
   line-height: 1.4;
@@ -367,12 +371,11 @@ main a {
   font-size: 12px;
   margin-left: -4px;
   padding: 8px;
+  transition: all 0.2s ease-out;
 }
 
 .subscribe-button:hover {
-  background-color: #FFFFFF;
-  color: #33a1ff;
-  border: 1px solid #33a1ff;
+  background-color: #1782e0;
   cursor: pointer;
 }
 
@@ -457,8 +460,7 @@ footer li {
 }
 
 .call-to-action button:hover {
-  background-color: #FFFFFF;
-  color: #33a1ff;
+  background-color: #1782e0;
   cursor: pointer;
 }
 
