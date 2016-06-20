@@ -358,7 +358,7 @@ main a {
 }
 
 .subscribe-button {
-  height: 28px;
+  height: 30px;
   color: #FFFFFF;
   background-color: #33a1ff;
   border: none;
@@ -367,6 +367,13 @@ main a {
   font-size: 12px;
   margin-left: -4px;
   padding: 8px;
+}
+
+.subscribe-button:hover {
+  background-color: #FFFFFF;
+  color: #33a1ff;
+  border: 1px solid #33a1ff;
+  cursor: pointer;
 }
 
 footer {
