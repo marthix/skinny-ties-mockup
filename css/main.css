@@ -446,6 +446,13 @@ footer li {
   font-weight: lighter;
   margin-left: -4px;
   padding: 8px;
+  transition: all 0.2s ease-out;
+}
+
+.call-to-action button:hover {
+  background-color: #FFFFFF;
+  color: #33a1ff;
+  cursor: pointer;
 }
 
 .copyright {
